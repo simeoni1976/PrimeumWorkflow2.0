@@ -1,0 +1,19 @@
+﻿
+
+ -- WORKFLOW 2.0
+
+
+ 1 - Check if there is a current instance. If it no exists, create a new instance.
+
+ 2 - Update workflow instance status.
+
+ 3 - Select a DataSet and applicate the Workflow instance.  
+
+      a.	If his dimension is equals to instance dimension then start.
+
+      b.	Else display an error message.
+
+ 4 - If dataset is ok then select the first SelectConfig and generate a maximum of instance (For each criteria existing, create a SelectorInstance - Cf. document)
+
+ 5 - Each instance follows his state diagram and activate the next selectors from constraints.
+
